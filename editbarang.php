@@ -26,7 +26,7 @@ $inst = mysqli_query($conn, "SELECT * FROM tblbarang WHERE idbarang = $id ");
               $tipe = $_POST['tipe'];
               $spek = $_POST['spesifikasi'];
                       $noinv = $_POST['noinventaris'];
-                      $thnperolehan = $_POST['tahunperolehan'];
+                             $thnperolehan = $_POST['tahunperolehan'];
                       $kondisi = $_POST['idkondisi'];
               $fotob = $_POST['fotobarang'];
       $ruang = $_POST['idruang'];
@@ -48,8 +48,6 @@ $inst = mysqli_query($conn, "SELECT * FROM tblbarang WHERE idbarang = $id ");
         return false;
       }
     
-     
-     
     
     
     }

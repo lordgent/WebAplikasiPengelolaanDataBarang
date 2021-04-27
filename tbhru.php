@@ -204,20 +204,9 @@ if($inst) {
       <?php } ?>
    </select>
    
-   
-
-
-
-
 <input type="hidden" name="iduser" value="<?= $_SESSION['iduser']; ?>">
 
-
-
-
 <textarea name="ket" cols="30" rows="10"></textarea>
-
-
-
 
  
 <br>
